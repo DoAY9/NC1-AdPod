@@ -18,7 +18,9 @@ struct ContentView: View {
                 .tabItem {
                     Label("검색", systemImage: "magnifyingglass")
                 }
-        }.accentColor(.green)
+        }
+        .accentColor(.indigo)
+        .ignoresSafeArea()
     }
 }
 

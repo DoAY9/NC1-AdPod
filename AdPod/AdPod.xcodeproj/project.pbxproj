@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD381CEE281D48AB0058A4FA /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD381CED281D48AB0058A4FA /* BottomTabView.swift */; };
 		DD381CF2281D4CB00058A4FA /* MainCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD381CF1281D4CB00058A4FA /* MainCardData.swift */; };
 		DD940D03281C318900A36C85 /* AdPodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D02281C318900A36C85 /* AdPodApp.swift */; };
 		DD940D05281C318900A36C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D04281C318900A36C85 /* ContentView.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD381CED281D48AB0058A4FA /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
 		DD381CF1281D4CB00058A4FA /* MainCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardData.swift; sourceTree = "<group>"; };
 		DD940CFF281C318900A36C85 /* AdPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD940D02281C318900A36C85 /* AdPodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPodApp.swift; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			children = (
 				DD940D17281D152A00A36C85 /* HomeView.swift */,
 				DD940D1C281D1A7C00A36C85 /* MainCardView.swift */,
-				DD381CED281D48AB0058A4FA /* BottomTabView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -218,7 +215,6 @@
 				DD940D21281D3BB600A36C85 /* SearchContentView.swift in Sources */,
 				DD940D18281D152A00A36C85 /* HomeView.swift in Sources */,
 				DD940D05281C318900A36C85 /* ContentView.swift in Sources */,
-				DD381CEE281D48AB0058A4FA /* BottomTabView.swift in Sources */,
 				DD940D03281C318900A36C85 /* AdPodApp.swift in Sources */,
 				DD940D25281D3C8E00A36C85 /* SearchView.swift in Sources */,
 				DD381CF2281D4CB00058A4FA /* MainCardData.swift in Sources */,
