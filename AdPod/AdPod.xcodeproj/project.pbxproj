@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DD381CF2281D4CB00058A4FA /* MainCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD381CF1281D4CB00058A4FA /* MainCardData.swift */; };
+		DD381CF42820242D0058A4FA /* SearchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD381CF32820242D0058A4FA /* SearchCardView.swift */; };
+		DD381CF628202A970058A4FA /* SearchCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD381CF528202A970058A4FA /* SearchCardData.swift */; };
+		DD381D00282117F00058A4FA /* ListCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD381CFF282117F00058A4FA /* ListCardData.swift */; };
 		DD940D03281C318900A36C85 /* AdPodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D02281C318900A36C85 /* AdPodApp.swift */; };
 		DD940D05281C318900A36C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D04281C318900A36C85 /* ContentView.swift */; };
 		DD940D07281C318C00A36C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD940D06281C318C00A36C85 /* Assets.xcassets */; };
@@ -17,10 +20,16 @@
 		DD940D1D281D1A7C00A36C85 /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D1C281D1A7C00A36C85 /* MainCardView.swift */; };
 		DD940D21281D3BB600A36C85 /* SearchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D20281D3BB500A36C85 /* SearchContentView.swift */; };
 		DD940D25281D3C8E00A36C85 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940D24281D3C8E00A36C85 /* SearchView.swift */; };
+		DDFD3A23282176A80030AC64 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD3A22282176A80030AC64 /* ListView.swift */; };
+		DDFD3A26282177170030AC64 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD3A25282177170030AC64 /* InfoView.swift */; };
+		DDFD3A28282177910030AC64 /* InfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD3A27282177910030AC64 /* InfoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD381CF1281D4CB00058A4FA /* MainCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardData.swift; sourceTree = "<group>"; };
+		DD381CF32820242D0058A4FA /* SearchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCardView.swift; sourceTree = "<group>"; };
+		DD381CF528202A970058A4FA /* SearchCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCardData.swift; sourceTree = "<group>"; };
+		DD381CFF282117F00058A4FA /* ListCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardData.swift; sourceTree = "<group>"; };
 		DD940CFF281C318900A36C85 /* AdPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD940D02281C318900A36C85 /* AdPodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPodApp.swift; sourceTree = "<group>"; };
 		DD940D04281C318900A36C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +40,9 @@
 		DD940D1C281D1A7C00A36C85 /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
 		DD940D20281D3BB500A36C85 /* SearchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContentView.swift; sourceTree = "<group>"; };
 		DD940D24281D3C8E00A36C85 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DDFD3A22282176A80030AC64 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = AdPod/Views/ListView.swift; sourceTree = SOURCE_ROOT; };
+		DDFD3A25282177170030AC64 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		DDFD3A27282177910030AC64 /* InfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD381CF72820D4CA0058A4FA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DDFD3A22282176A80030AC64 /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		DD940CF6281C318900A36C85 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				DD381CF1281D4CB00058A4FA /* MainCardData.swift */,
+				DD381CF528202A970058A4FA /* SearchCardData.swift */,
+				DD381CFF282117F00058A4FA /* ListCardData.swift */,
+				DDFD3A27282177910030AC64 /* InfoData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,6 +152,8 @@
 			children = (
 				DD940D20281D3BB500A36C85 /* SearchContentView.swift */,
 				DD940D22281D3BB900A36C85 /* Components */,
+				DD381CF72820D4CA0058A4FA /* List */,
+				DDFD3A24282176FF0030AC64 /* Info */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -137,8 +162,17 @@
 			isa = PBXGroup;
 			children = (
 				DD940D24281D3C8E00A36C85 /* SearchView.swift */,
+				DD381CF32820242D0058A4FA /* SearchCardView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		DDFD3A24282176FF0030AC64 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				DDFD3A25282177170030AC64 /* InfoView.swift */,
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,9 +248,15 @@
 			files = (
 				DD940D21281D3BB600A36C85 /* SearchContentView.swift in Sources */,
 				DD940D18281D152A00A36C85 /* HomeView.swift in Sources */,
+				DD381CF42820242D0058A4FA /* SearchCardView.swift in Sources */,
 				DD940D05281C318900A36C85 /* ContentView.swift in Sources */,
+				DDFD3A26282177170030AC64 /* InfoView.swift in Sources */,
+				DD381CF628202A970058A4FA /* SearchCardData.swift in Sources */,
 				DD940D03281C318900A36C85 /* AdPodApp.swift in Sources */,
 				DD940D25281D3C8E00A36C85 /* SearchView.swift in Sources */,
+				DDFD3A28282177910030AC64 /* InfoData.swift in Sources */,
+				DD381D00282117F00058A4FA /* ListCardData.swift in Sources */,
+				DDFD3A23282176A80030AC64 /* ListView.swift in Sources */,
 				DD381CF2281D4CB00058A4FA /* MainCardData.swift in Sources */,
 				DD940D1D281D1A7C00A36C85 /* MainCardView.swift in Sources */,
 			);

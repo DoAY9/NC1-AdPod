@@ -8,15 +8,6 @@
 import SwiftUI
 
 struct HomeView: View {
-    
-//    init() {
-//            //Use this if NavigationBarTitle is with Large Font
-//            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.red]
-//
-//            //Use this if NavigationBarTitle is with displayMode = .inline
-//            UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.red]
-//        }
-    
     let data: [MainCardData] = [
         MainCardData(image: "MainiPhone", category: "iPhone"),
         MainCardData(image: "MainiPad", category: "iPad"),
