@@ -14,4 +14,8 @@ struct MainCardData: Identifiable {
     var currentYear: String = "2022"
 }
 
-
+let mainData: [MainCardData] = [
+    MainCardData(image: "MainiPhone", category: "iPhone"),
+    MainCardData(image: "MainiPad", category: "iPad"),
+    MainCardData(image: "MainMacBook", category: "MacBook"),
+    MainCardData(image: "MainAirPods", category: "AirPods")]

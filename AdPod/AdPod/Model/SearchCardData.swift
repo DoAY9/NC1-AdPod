@@ -12,3 +12,9 @@ struct SearchCardData: Identifiable {
     var image: String
     var category: String
 }
+
+let searchData: [SearchCardData] = [
+    SearchCardData(image: "SearchiPhone", category: "iPhone"),
+    SearchCardData(image: "SearchiPad", category: "iPad"),
+    SearchCardData(image: "SearchMacBook", category: "MacBook"),
+    SearchCardData(image: "SearchAirPods", category: "AirPods")]
