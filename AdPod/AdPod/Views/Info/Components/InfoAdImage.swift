@@ -30,9 +30,14 @@ struct InfoAdImage: View {
                     Image(info.image3)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                    Image(info.image4)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+                    ZStack {
+                        Image(info.image4)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        Image(systemName: "play.circle")
+                            .foregroundColor(.white)
+                            .font(.system(size: 30))
+                    }
                 }
             }
             Divider().padding()

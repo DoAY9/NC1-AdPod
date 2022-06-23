@@ -9,6 +9,8 @@ import SwiftUI
 
 struct InfoAd: View {
     
+    // InfoData의 데이터를 가지고 온 것
+    // 전역 변수인 adInfoData를 써도 된다. 대신 배열이니 인덱스로?
     let info: InfoData
     
     var body: some View {
@@ -19,15 +21,20 @@ struct InfoAd: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 390, height: 390)
                 
-                VStack(alignment: .leading, spacing: 5) {
-                    Text(info.category)
-                        .foregroundColor(.gray)
-                        .font(.subheadline)
-                    Text(info.adTitle)
-                        .foregroundColor(.white)
-                        .font(.system(size: 34, weight: .bold))
+                HStack{
+                    VStack(alignment: .leading, spacing: 5) {
+                        Spacer()
+                        Text(info.category)
+                            .foregroundColor(.gray)
+                            .font(.subheadline)
+                        Text(info.adTitle)
+                            .foregroundColor(.white)
+                            .font(.system(size: 34, weight: .bold))
+                        //Spacer()
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: 360, alignment: .leading)
+                    .padding()
                 }
-                .position(x: 120, y: 338)
             }
             
             
@@ -38,7 +45,7 @@ struct InfoAd: View {
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: 350, alignment: .leading)
             
             Divider().padding()
         }
